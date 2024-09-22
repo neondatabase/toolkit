@@ -1,0 +1,19 @@
+{
+  "name": "@neondatabase/toolkit",
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "format": "bun prettier --write ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@neondatabase/api-client": "^1.10.3",
+    "@neondatabase/serverless": "^0.9.5"
+  }
+}
