@@ -12,7 +12,7 @@ Furthermore, it's also a great choice for AI agents which need to interact with 
 ```typescript
 import { NeonToolkit } from "@neondatabase/toolkit";
 
-const toolkit = new NeonToolkit(process.env.API_KEY!);
+const toolkit = new NeonToolkit(process.env.NEON_API_KEY!);
 const project = await toolkit.createProject();
 
 await toolkit.sql(
@@ -48,7 +48,7 @@ await toolkit.deleteProject(project);
 To run this:
 
 ```bash
-API_KEY=<YOUR_API_KEY> node index.js # bun also works
+NEON_API_KEY=<YOUR_NEON_API_KEY> node index.js # bun also works
 ```
 
 ### Accessing the API Client
@@ -56,7 +56,7 @@ API_KEY=<YOUR_API_KEY> node index.js # bun also works
 ```typescript
 import { NeonToolkit } from "@neondatabase/toolkit";
 
-const toolkit = new NeonToolkit(process.env.API_KEY!);
+const toolkit = new NeonToolkit(process.env.NEON_API_KEY!);
 
 const project = await toolkit.createProject();
 
