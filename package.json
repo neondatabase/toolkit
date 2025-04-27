@@ -2,14 +2,25 @@
   "name": "@neondatabase/toolkit",
   "module": "index.ts",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
   "files": [
     "package.json",
     "dist"
   ],
   "scripts": {
     "build": "tsc",
-    "format": "bun prettier --write ."
+    "format": "bun prettier --write .",
+    "test": "bun test --tsconfig ./tsconfig.test.json",
+    "prepublishOnly": "bun run build && bun run test"
   },
   "devDependencies": {
     "@types/bun": "latest"
