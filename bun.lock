@@ -4,7 +4,7 @@
     "": {
       "name": "@neondatabase/toolkit",
       "dependencies": {
-        "@neondatabase/api-client": "^2.0.0",
+        "@neondatabase/api-client": "^2.2.0",
         "@neondatabase/serverless": "^1.0.0",
       },
       "devDependencies": {
@@ -16,7 +16,7 @@
     },
   },
   "packages": {
-    "@neondatabase/api-client": ["@neondatabase/api-client@2.0.0", "", { "dependencies": { "axios": "^1.7.9" } }, "sha512-UwjRRy8gyShNDfbbP1N+rA235FzqVWP/WPi4cgLnkGgConqpiR+U9Dsegaxu+HxAgK678kQ/5wc4/EPexvE7tw=="],
+    "@neondatabase/api-client": ["@neondatabase/api-client@2.2.0", "", { "dependencies": { "axios": "^1.9.0" } }, "sha512-KP7NWn2gdrcXmB6xtrU+RZNGbgkUm5AwIv6B78XvdTKX+jFEkYznNfWUUbFCMehH4N0x/plErIeuMh75pk0KiQ=="],
 
     "@neondatabase/serverless": ["@neondatabase/serverless@1.0.0", "", { "dependencies": { "@types/node": "^22.10.2", "@types/pg": "^8.8.0" } }, "sha512-XWmEeWpBXIoksZSDN74kftfTnXFEGZ3iX8jbANWBc+ag6dsiQuvuR4LgB0WdCOKMb5AQgjqgufc0TgAsZubUYw=="],
 
