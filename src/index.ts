@@ -55,6 +55,6 @@ export class NeonToolkit {
     project: ToolkitProject,
     query: string,
   ): Promise<ReturnType<NeonQueryFunction<boolean, boolean>>> {
-    return neon(project.connectionURIs[0].connection_uri)(query);
+    return neon(project.connectionURIs[0].connection_uri).query(query);
   }
 }
