@@ -6,8 +6,10 @@ You can use it to simplify the process of creating a Neon project and running SQ
 
 Furthermore, it's also a great choice for AI agents which need to interact with Neon.
 
-> [!CAUTION]
-> This is in very early development and API stability is not guaranteed.
+> [!WARNING]
+> **`@neondatabase/toolkit` is deprecated.** It is no longer maintained and has been
+> deprecated on npm. Please migrate to our new platform management API client SDK,
+> which is being developed in [neondatabase/neon-pkgs](https://github.com/neondatabase/neon-pkgs).
 
 ```typescript
 import { NeonToolkit } from "@neondatabase/toolkit";
