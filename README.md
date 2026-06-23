@@ -1,3 +1,8 @@
+> [!WARNING]
+> **`@neondatabase/toolkit` is deprecated.** It is no longer maintained and has been
+> deprecated on npm. Please migrate to our new platform management API client SDK,
+> which is being developed in [neondatabase/neon-pkgs](https://github.com/neondatabase/neon-pkgs).
+
 # @neondatabase/toolkit
 
 This is a toolkit that Bundles Neon's [API Client](https://www.npmjs.com/package/@neondatabase/api-client) as well as Neon's [Serverless Driver](https://github.com/neondatabase/serverless).
@@ -5,11 +10,6 @@ This is a toolkit that Bundles Neon's [API Client](https://www.npmjs.com/package
 You can use it to simplify the process of creating a Neon project and running SQL queries. This is ideal for test environments, where you don't want to set up a Neon project manually.
 
 Furthermore, it's also a great choice for AI agents which need to interact with Neon.
-
-> [!WARNING]
-> **`@neondatabase/toolkit` is deprecated.** It is no longer maintained and has been
-> deprecated on npm. Please migrate to our new platform management API client SDK,
-> which is being developed in [neondatabase/neon-pkgs](https://github.com/neondatabase/neon-pkgs).
 
 ```typescript
 import { NeonToolkit } from "@neondatabase/toolkit";
